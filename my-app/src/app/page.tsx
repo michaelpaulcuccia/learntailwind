@@ -14,9 +14,7 @@ const headerInfo = {
 export default function Page() {
   return (
     <div className="flex h-screen">
-      <LeftColumn>
-        <p>Left Column Content</p>
-      </LeftColumn>
+      <LeftColumn />
       <RightScreen headerProps={headerInfo} />
     </div>
   );

@@ -1,14 +1,5 @@
 import IconWithText from "./IconWithText";
-
-type ColItemContainerProps = {
-  items: {
-    headline?: string;
-    items: {
-      icon: JSX.Element;
-      text: string;
-    }[];
-  }[];
-};
+import { ColItemContainerProps } from "../constants/types";
 
 const ColItemContainer = ({ items }: ColItemContainerProps) => {
   return (
