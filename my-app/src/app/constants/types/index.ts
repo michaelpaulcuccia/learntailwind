@@ -17,3 +17,13 @@ export type UserInfoProps = {
     user: User;
   };
 };
+
+export type ColItemContainerProps = {
+  items: {
+    headline?: string;
+    items: {
+      icon: JSX.Element;
+      text: string;
+    }[];
+  }[];
+};
