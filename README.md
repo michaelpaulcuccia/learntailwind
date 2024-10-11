@@ -1,6 +1,6 @@
 # learntailwind
 
-Thank you Novo for the opportunity to discuss a potential Frontend Develoer Role.
+Thank you Novo for the opportunity to discuss a potential Frontend Developer Role.
 
 As a token of good faith and a demonstration of my interest, I created this "quick and dirty" replica of your application, as shown in the screenshots on your website.
 
