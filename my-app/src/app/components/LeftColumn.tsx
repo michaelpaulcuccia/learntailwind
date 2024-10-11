@@ -47,7 +47,9 @@ const LeftColumn = () => {
   ];
 
   return (
-    <div className="w-1/5 flex flex-col bg-black text-gray-400 justify-between">
+    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col bg-black text-gray-400 justify-between">
+      {" "}
+      {/* Adjusted widths */}
       <div>
         <img
           src="/images/novo.svg"

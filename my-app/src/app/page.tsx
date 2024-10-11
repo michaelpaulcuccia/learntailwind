@@ -13,9 +13,14 @@ const headerInfo = {
 
 export default function Page() {
   return (
-    <div className="flex h-screen">
-      <LeftColumn />
-      <RightScreen headerProps={headerInfo} />
-    </div>
+    <>
+      <div className="flex h-screen showContent">
+        <LeftColumn />
+        <RightScreen headerProps={headerInfo} />
+      </div>
+      <div className="showUseDesktop">
+        This application is meant to be viewed on a desktop
+      </div>
+    </>
   );
 }

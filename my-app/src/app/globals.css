@@ -19,3 +19,28 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.showContent {
+  display: flex;
+}
+
+.showUseDesktop {
+  display: none;
+}
+
+@media (max-width: 875px) {
+  .showContent {
+    display: none;
+  }
+  .showUseDesktop {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
