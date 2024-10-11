@@ -1,17 +1,16 @@
 import { ReactNode } from "react";
 
 type ColTextRowProps = {
-  leftSide?: { icon: ReactNode; text: string };
-  rightSide?: { icon: ReactNode; text: string };
+  leftSide?: { icon?: ReactNode; text: string }; // icon is now optional
+  rightSide?: { icon?: ReactNode; text: string }; // icon is now optional
 };
 
 const ColTextRow = ({ leftSide, rightSide }: ColTextRowProps) => {
   return (
     <div className="flex justify-between items-center px-2 pr-5 mb-5">
-      {" "}
       {leftSide && (
         <div className="flex items-center">
-          <span className="ml-5 mr-2">{leftSide.text}</span>
+          <span className="ml-5 mr-5">{leftSide.text}</span>
           {leftSide.icon}
         </div>
       )}

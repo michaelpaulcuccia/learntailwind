@@ -2,7 +2,7 @@ import ColTextRow from "./ColTextRow";
 import { ReactNode } from "react";
 
 interface SideProps {
-  icon?: ReactNode;
+  icon?: ReactNode; // Keep icon as optional
   text: string;
 }
 
