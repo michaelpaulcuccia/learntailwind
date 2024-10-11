@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 
 type ColTextRowProps = {
-  leftSide?: { icon?: ReactNode; text: string }; // icon is now optional
-  rightSide?: { icon?: ReactNode; text: string }; // icon is now optional
+  leftSide?: { icon?: ReactNode; text: string };
+  rightSide?: { icon?: ReactNode; text: string };
 };
 
 const ColTextRow = ({ leftSide, rightSide }: ColTextRowProps) => {

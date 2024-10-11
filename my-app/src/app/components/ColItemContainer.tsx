@@ -16,8 +16,8 @@ const ColItemContainer = ({ items }: ColItemContainerProps) => {
           </div>
           {(index === 0 || index === 1) && (
             <div
-              className="border-b-2 border-gray-400 w-full"
-              style={{ padding: "0 10px" }}
+              className="border-b-2 border-gray-400 mx-auto"
+              style={{ width: "calc(100% - 40px)", padding: "0 20px" }}
             />
           )}
         </div>
