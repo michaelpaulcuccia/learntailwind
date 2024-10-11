@@ -17,7 +17,7 @@ const LeftColumn = () => {
       ],
     },
     {
-      headline: "Create Draft",
+      headline: "CREATE DRAFT",
       items: [
         {
           icon: <MdOutlineMedicalServices fontSize={24} />,
@@ -27,7 +27,7 @@ const LeftColumn = () => {
       ],
     },
     {
-      headline: "Chat",
+      headline: "CHAT",
       items: [{ icon: <PiChats fontSize={24} />, text: "Doc Chat" }],
     },
   ];
