@@ -1,6 +1,7 @@
 import ColTextRow from "./ColTextRow";
 import { ReactNode } from "react";
 import CreditButton from "./CreditButton";
+import UpgradeBox from "./UpgradeBox";
 
 interface SideProps {
   icon?: ReactNode; // Keep icon as optional
@@ -29,6 +30,7 @@ const ColBottomContainer = ({ items }: ColBottomContainerProps) => {
         ))}
       </div>
       <CreditButton />
+      <UpgradeBox />
     </div>
   );
 };
