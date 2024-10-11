@@ -5,10 +5,7 @@ const ColItemContainer = ({ items }: ColItemContainerProps) => {
   return (
     <>
       {items.map((section, index) => (
-        <div
-          key={index}
-          className="flex flex-col items-start border-b-2 border-gray-500 px-2 mt-10 pb-2"
-        >
+        <div key={index} className="flex flex-col items-start px-2 mt-10 pb-2">
           <div className="mb-4">
             {section.headline && (
               <h2 className="text-lg font-semibold mb-4">{section.headline}</h2>
@@ -17,6 +14,12 @@ const ColItemContainer = ({ items }: ColItemContainerProps) => {
               <IconWithText key={itemIndex} icon={item.icon} text={item.text} />
             ))}
           </div>
+          {(index === 0 || index === 1) && (
+            <div
+              className="border-b-2 border-gray-500 w-full"
+              style={{ padding: "0 10px" }}
+            />
+          )}
         </div>
       ))}
     </>

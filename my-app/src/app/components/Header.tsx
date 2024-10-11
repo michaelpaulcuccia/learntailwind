@@ -4,7 +4,7 @@ import { PiCaretDown } from "react-icons/pi";
 
 const Header = ({ documentType, user }: HeaderProps) => {
   return (
-    <header className="flex justify-between h-[5%] p-4 pb-4 bg-white border-b-[3px] border-gray-200">
+    <header className="flex justify-between h-[5%] px-6 py-4 bg-white border-b-[3px] border-gray-200">
       <div>
         <h1 className="text-lg font-bold">{documentType}</h1>
       </div>
